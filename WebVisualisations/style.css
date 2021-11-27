@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(237, 237, 237);
+}
+header{
+    color:rgb(74, 170, 165);
+    /* background-color: white; */
+}
+
+.row{
+    background:white;
+}
+
+#landing-page {
+    float:left;
+}
+
+#landing-page {
+    width: 70%;
+}
+
+#img-responsive {
+    float: left;
+
+}

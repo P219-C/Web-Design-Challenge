@@ -8,19 +8,115 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    <h1>Summary: Latitude vs. X</h1>
+
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+
+
+
+
+
+
+
+
+
+        <div class="container pt-5">
+            <div class="row gx-5">
+                <div class = "col-md-8">
+                    <header>
+                        <h1>Summary: Latitude vs. X</h1>
+                    </header>
+
+                    <section id="landing-page">
+                        <section id="figure">
+                            <img id="img-responsive" width="50%" src="assets/Fig1.png" alt="Fig_1">
+                        </section>
+                        <p>
+                            The purpose of this project was to analyze how weather changes as
+                            you get closer to the equator. To accomplish this analysis, we first
+                            pulled data from the OpenWeatherMap API to assemble a dataset on over 
+                            500 cities.
+                        </p>
+                        <p>
+                            After assembling the dataset, we used Matplotlib to plot various aspects of
+                            the weather vs. latitude. Factors we looked at included: temperature, cloudiness,
+                            wind speed, and humidity. This site provides the source data and visualizations
+                            created as part of the analysis, as well as explanations and descriptions of
+                            any trends and correlations witnessed.
+                        </p>
+                    </section>
                 </div>
-                <div class="col-md-4">
-                    <h2>Visualizations</h2>
+                <div class = "col-md-4">
+
+                    <header>
+                        <h2>Visualizations</h2>
+                    </header>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <section id="figure">
+                                    <img id="figure_page" width="50%" src="assets/Fig1.png" alt="Fig_1">
+                                </section>
+                            </div>
+                            <div class="col">
+                                <section id="figure">
+                                    <img id="figure_page" width="50%" src="assets/Fig2.png" alt="Fig_1">
+                                </section>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <section id="figure">
+                                    <img id="figure_page" width=100 src="assets/Fig3.png" alt="Fig_1">
+                                </section>
+                            </div>
+                            <div class="col">
+                                <section id="figure">
+                                    <img id="figure_page" width=100 src="assets/Fig4.png" alt="Fig_1">
+                                </section>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <div 
         </div>
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
 </html>
